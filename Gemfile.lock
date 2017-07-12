@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/up2l8-0/ward_view_tool
+  revision: a2307b8d723f70dbdafb221e9b57710009a4a0a8
+  specs:
+    ward_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -201,6 +207,7 @@ DEPENDENCIES
   turbolinks (~> 5)
   tzinfo-data
   uglifier (>= 1.3.0)
+  ward_view_tool!
   web-console (>= 3.3.0)
 
 BUNDLED WITH
