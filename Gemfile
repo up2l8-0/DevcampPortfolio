@@ -57,4 +57,4 @@ gem 'devise', '~> 4.3'
 
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
-gem 'ward_view_tool', git: 'https://github.com/up2l8-0/ward_view_tool'
+gem 'ward_view_tool', '~> 0.1.0'
