@@ -15,6 +15,5 @@
 //= require jquery-ui/widgets/datepicker
 //= require html.sortable
 //= require turbolinks
-//= require_tree .
 //= require jquery3
 //= require bootstrap-sprockets
