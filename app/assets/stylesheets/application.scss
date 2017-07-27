@@ -1,6 +1,7 @@
 @import "bootstrap";
-/*
- * Globals
+@import "gritter";
+
+ /* Globals
  */
 
 /* Links */
@@ -22,7 +23,7 @@ a:hover {
 
 
 /*
- * Base structure
+ Base structure
  */
 
 html,
@@ -60,7 +61,7 @@ body {
 
 
 /*
- * Header
+ Header
  */
 
 .masthead {
@@ -104,7 +105,7 @@ body {
 
 
 /*
- * Cover
+ Cover
  */
 
 .cover {
@@ -126,7 +127,7 @@ body {
 
 
 /*
- * Affix and center
+ Affix and center
  */
 
 @media (min-width: 40em) {
@@ -161,7 +162,7 @@ body {
 
 
 /*
- * Custom Styles
+ Custom Styles
  */
  
  .card-block {
