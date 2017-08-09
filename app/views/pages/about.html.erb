@@ -9,6 +9,22 @@
      
       
           <%= image_tag "http://cdn.business2community.com/wp-content/uploads/2016/03/Vd3MJo.jpg", width: 250, alt: "profile image", class: 'profile-img'%>
+          <div class="skills">
+             <% @skills.each do |skill| %>
+                <div class="skill">
+                   <h4><%= skill.title %></h4>
+                   <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-striped bf-warning"
+                        role="progressbar"
+                        aria-valuenow="<%= skill.percent_utilized %>"
+                        aria-valuemax='100'
+                        style='width: <%= skill.percent_utilized %>%'
+                      ></div>
+                   </div>
+                </div>
+             <% end %>
+          </div>
        </div>
    
          <div class="col-md-8">
