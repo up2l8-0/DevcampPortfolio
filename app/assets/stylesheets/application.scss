@@ -35,7 +35,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 body {
-  color: #fff;
+  color: whitesmoke;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
 }
@@ -47,6 +47,7 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
    font-family: 'Bitter', serif;
+   color: whitesmoke;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -246,4 +247,10 @@ h6, .h6 {
  .skill {
     margin-top: 10px;
     margin-bottom: 10px;
+ }
+ 
+ .card {
+    background: none;
+    color: whitesmoke;
+    border: none;
  }
